@@ -3,6 +3,12 @@ A continuacion se define los alcances que la aplicacion de clips va a tomar en c
 
 
 -El sistema experto preguntara por los posibles sintomas de caracter fisico.
+* RAM "Pantallazo azul, memoria limitada, Traza por sobrecarga de memoria"
+* HDD "No formato, Particion dañada (boot dañado"no arranca", tabla principal inexistente "deban de existir la información"), No se encuentra el disco, "
+* GPU "pantallazo azul, arranca OS sin video, extrema baja resolucion, pantalla recortada, imagen monocromatica o con manchas de color"
+*Tarjeta de red inalambrica "No deteccion de dispositivo de red" (a considerar falla de procesador en dispositivos multi-integrados)
+*Tarjeta de red alambrica "No deteccion de dispositivo de red" (a considerar falla de procesador en dispositivos multi-integrados)
+*Bateria RTC ""
 
 -El sistema experto preguntara por los posibles sintomas de caracter informatico.
 
@@ -14,5 +20,3 @@ A continuacion se define los alcances que la aplicacion de clips va a tomar en c
 
 -¿Como hacer la base de conocimiento?
 
-
-.....metanle candela.
