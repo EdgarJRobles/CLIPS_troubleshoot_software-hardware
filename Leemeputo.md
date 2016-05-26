@@ -1,4 +1,5 @@
 # CLIPS_troubleshoot_software-hardware
+
 A continuacion se define los alcances que la aplicacion de clips va a tomar en cuenta:
 
 
@@ -14,6 +15,7 @@ A continuacion se define los alcances que la aplicacion de clips va a tomar en c
 * Teclado "no conectado, teclas dañadas"
 * Monitor-eterno "monitor desconectado, monitor apagado"
 
+
 -El sistema experto preguntara por los posibles sintomas de caracter informatico.
 
 -La informacion se ingresara en forma de hechos para su analizis con reglas.
@@ -25,3 +27,8 @@ A continuacion se define los alcances que la aplicacion de clips va a tomar en c
 "Efectuar alguna de las acciones sugeridas por el sistema experto, si el fallo persiste volve a ejecutar el sistema experto"
 
 -¿Como hacer la base de conocimiento?
+
+-Función preguntar
+¿Que debe preguntar al inicio? <- debe existir hechos iniciales ¿Cuales? ->
+* la pregunta trivial es si el equipo enciende
+

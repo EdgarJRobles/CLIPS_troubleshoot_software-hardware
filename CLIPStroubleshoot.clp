@@ -1,12 +1,11 @@
 ;;;======================================================
-;;;   Automotive Expert System
+;;;   Hardware troubleshoot Expert System
 ;;;
-;;;     This expert system diagnoses some simple
-;;;     problems with a car.
+;;;     This expert system diagnoses some desk and mobile 
+;;;	PC hardware issues.
 ;;;
-;;;     CLIPS Version 6.0 Example
 ;;;
-;;;     To execute, merely load, reset and run.
+;;;     To execute merely, load, reset and run.
 ;;;======================================================
 
 ;;****************
