@@ -33,150 +33,83 @@
 ;;;**********************
 ;;;* ENGINE STATE RULES *
 ;;;**********************
+(deffacts initial-facts
+ (bad-connection 0)
+)
+(defrule computer-power-on
+(declare (salience 100))
+(initial-fact)
+=>
+	(if (yes-or-no-p "can your computer turn on(yes/no)?")
+	then
+	(assert (computer-turn-on yes))
+	else
+	(assert (computer-turn-on no))
+	)
+)
+(defrule RAM-issue
+(declare (salience 80))
+(computer-turn-on yes)
+;;(computer-BIOS-alert ?)
+=>
+	(if (yes-or-no-p "Have you seen a blue screnshot(yes/no)?")
+	then
+	(assert (computer-blue-screen yes))
+	else
+	(assert (computer-blue-screen no))
+	)
+	
+)
+(defrule Batterie-RTC-issue
+(declare (salience 80))
+(computer-turn-on yes)
+(computer-blue-screen no)
+=>
+	(if (yes-or-no-p "Have you seen on launch a warning at beginning and include a work like (batterie or RTC)(yes/no)?")
+	then
+	(assert (computer-BIOS-warning yes))
+	else
+	(assert (computer-BIOS-warning no))
+	)
+)
 
-(defrule normal-engine-state-conclusions ""
-   (declare (salience 10))
-   (working-state engine normal)
-   =>
-   (assert (repair "No repair needed."))
-   (assert (spark-state engine normal))
-   (assert (charge-state battery charged))
-   (assert (rotation-state engine rotates)))
+(defrule Nostart-OS-issue
+(declare (salience 80))
+(computer-turn-on yes)
+(computer-blue-screen no)
+(computer-BIOS-warning yes)
+=>
+	(if (yes-or-no-p "Have you seen on initial launch a warning like this (No format to boot)(yes/no)?")
+	then
+	(assert (computer-BIOS-NOBOOT yes))
+	else
+	(assert (computer-BIOS-NOBOOT no))
+	)
+)
 
-(defrule unsatisfactory-engine-state-conclusions ""
-   (declare (salience 10))
-   (working-state engine unsatisfactory)
-   =>
-   (assert (charge-state battery charged))
-   (assert (rotation-state engine rotates)))
-
-;;;***************
-;;;* QUERY RULES *
-;;;***************
-
-(defrule determine-engine-state ""
-   (not (working-state engine ?))
-   (not (repair ?))
-   =>
-   (if (yes-or-no-p "Does the engine start (yes/no)? ") 
-       then 
-       (if (yes-or-no-p "Does the engine run normally (yes/no)? ")
-           then (assert (working-state engine normal))
-           else (assert (working-state engine unsatisfactory)))
-       else 
-       (assert (working-state engine does-not-start))))
-
-(defrule determine-rotation-state ""
-   (working-state engine does-not-start)
-   (not (rotation-state engine ?))
-   (not (repair ?))   
-   =>
-   (if (yes-or-no-p "Does the engine rotate (yes/no)? ")
-       then
-       (assert (rotation-state engine rotates))
-       (assert (spark-state engine irregular-spark))
-       else
-       (assert (rotation-state engine does-not-rotate))       
-       (assert (spark-state engine does-not-spark))))
-
-(defrule determine-sluggishness ""
-   (working-state engine unsatisfactory)
-   (not (repair ?))
-   =>
-   (if (yes-or-no-p "Is the engine sluggish (yes/no)? ")
-       then (assert (repair "Clean the fuel line."))))
-
-(defrule determine-misfiring ""
-   (working-state engine unsatisfactory)
-   (not (repair ?))
-   =>
-   (if (yes-or-no-p "Does the engine misfire (yes/no)? ")
-       then
-       (assert (repair "Point gap adjustment."))       
-       (assert (spark-state engine irregular-spark)))) 
-
-(defrule determine-knocking ""
-   (working-state engine unsatisfactory)
-   (not (repair ?))
-   =>
-   (if (yes-or-no-p "Does the engine knock (yes/no)? ")
-       then
-       (assert (repair "Timing adjustment."))))
-
-(defrule determine-low-output ""
-   (working-state engine unsatisfactory)
-   (not (symptom engine low-output | not-low-output))
-   (not (repair ?))
-   =>
-   (if (yes-or-no-p "Is the output of the engine low (yes/no)? ")
-       then
-       (assert (symptom engine low-output))
-       else
-       (assert (symptom engine not-low-output))))
-
-(defrule determine-gas-level ""
-   (working-state engine does-not-start)
-   (rotation-state engine rotates)
-   (not (repair ?))
-   =>
-   (if (not (yes-or-no-p "Does the tank have any gas in it (yes/no)? "))
-       then
-       (assert (repair "Add gas."))))
-
-(defrule determine-battery-state ""
-   (rotation-state engine does-not-rotate)
-   (not (charge-state battery ?))
-   (not (repair ?))
-   =>
-   (if (yes-or-no-p "Is the battery charged (yes/no)? ")
-       then
-       (assert (charge-state battery charged))
-       else
-       (assert (repair "Charge the battery."))
-       (assert (charge-state battery dead))))  
-
-(defrule determine-point-surface-state ""
-   (or (and (working-state engine does-not-start)      
-            (spark-state engine irregular-spark))
-       (symptom engine low-output))
-   (not (repair ?))
-   =>
-   (bind ?response 
-      (ask-question "What is the surface state of the points (normal/burned/contaminated)? "
-                    normal burned contaminated))
-   (if (eq ?response burned) 
-       then 
-      (assert (repair "Replace the points."))
-       else (if (eq ?response contaminated)
-                then (assert (repair "Clean the points.")))))
-
-(defrule determine-conductivity-test ""
-   (working-state engine does-not-start)      
-   (spark-state engine does-not-spark)
-   (charge-state battery charged)
-   (not (repair ?))
-   =>
-   (if (yes-or-no-p "Is the conductivity test for the ignition coil positive (yes/no)? ")
-       then
-       (assert (repair "Repair the distributor lead wire."))
-       else
-       (assert (repair "Replace the ignition coil."))))
-
-(defrule no-repairs ""
-  (declare (salience -10))
-  (not (repair ?))
-  =>
-  (assert (repair "Take your car to a mechanic.")))
-
+(defrule NoTurn-on-PC
+(declare (salience 80))
+(computer-turn-on no)
+=>
+	(printout t "Please check if power cable have a good connection" crlf)
+	(if (eq bad-connection 1)
+	then
+	(assert (repair "Buy a new power cord according to your PC "))
+	else
+	(refresh computer-power-on)
+	(assert (bad-connection 1))
+	)
+)
 ;;;****************************
 ;;;* STARTUP AND REPAIR RULES *
 ;;;****************************
 
 (defrule system-banner ""
-  (declare (salience 10))
+  (declare (salience 110))
   =>
+  (system "reset")
   (printout t crlf crlf)
-  (printout t "The Engine Diagnosis Expert System")
+  (printout t  "Hardware troubleshoot Expert System")
   (printout t crlf crlf))
 
 (defrule print-repair ""
@@ -186,4 +119,4 @@
   (printout t crlf crlf)
   (printout t "Suggested Repair:")
   (printout t crlf crlf)
-  (format t " %s%n%n%n" ?item))
+  (format t " %s%n%n%n" ?item crlf))
