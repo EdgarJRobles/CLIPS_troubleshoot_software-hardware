@@ -33,9 +33,6 @@
 ;;;**********************
 ;;;* ENGINE STATE RULES *
 ;;;**********************
-(deffacts initial-facts
- (bad-connection 0)
-)
 (defrule computer-power-on
 (declare (salience 100))
 (initial-fact)
@@ -50,9 +47,8 @@
 (defrule RAM-issue
 (declare (salience 80))
 (computer-turn-on yes)
-;;(computer-BIOS-alert ?)
 =>
-	(if (yes-or-no-p "Have you seen a blue screnshot(yes/no)?")
+	(if (yes-or-no-p "Have you seen a blue screen(yes/no)?")
 	then
 	(assert (computer-blue-screen yes))
 	else
@@ -77,11 +73,11 @@
 (declare (salience 80))
 (computer-turn-on yes)
 (computer-blue-screen no)
-(computer-BIOS-warning yes)
 =>
 	(if (yes-or-no-p "Have you seen on initial launch a warning like this (No format to boot)(yes/no)?")
 	then
 	(assert (computer-BIOS-NOBOOT yes))
+	(assert (repair "recover MBR (master boot register)"))
 	else
 	(assert (computer-BIOS-NOBOOT no))
 	)
@@ -100,6 +96,22 @@
 	(assert (bad-connection 1))
 	)
 )
+
+(defrule Video-issue
+(declare (salience 80))
+(computer-turn-on yes)
+(computer-blue-screen no)
+
+=>
+	(if (yes-or-no-p "There is not video or in low resolution(yes/no)?")
+	then
+	(assert (computer-video-fail yes))
+	(assert (repair "Please check if video card driver are correct installed"))
+	else
+	(assert (computer-video-fail no))
+	)
+)
+
 ;;;****************************
 ;;;* STARTUP AND REPAIR RULES *
 ;;;****************************
