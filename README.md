@@ -1,5 +1,6 @@
 # CLIPS_troubleshoot_software-hardware
 
+![Texto alternativo a la imagen](https://github.com/EdgarJRobles/CLIPS_troubleshoot_software-hardware/master/Hardware_troubleshoot.svg) : Imagen y texto alternativo
 A continuacion se define los alcances que la aplicacion de clips va a tomar en cuenta:
 
 
