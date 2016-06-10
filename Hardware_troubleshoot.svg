@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="82cm" height="95cm" viewBox="-277 -305 1630 1883" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <path style="fill: #ffffff" d="M 25.079 -303.314 L 64.979,-303.314 C 70.488,-303.314 74.954,-298.389 74.954,-292.314 C 74.954,-286.239 70.488,-281.314 64.979,-281.314 L 25.079,-281.314 C 19.57,-281.314 15.104,-286.239 15.104,-292.314 C 15.104,-298.389 19.57,-303.314 25.079,-303.314z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 25.079 -303.314 L 64.979,-303.314 C 70.488,-303.314 74.954,-298.389 74.954,-292.314 C 74.954,-286.239 70.488,-281.314 64.979,-281.314 L 25.079,-281.314 C 19.57,-281.314 15.104,-286.239 15.104,-292.314 C 15.104,-298.389 19.57,-303.314 25.079,-303.314"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="45.029" y="-288.314">
+      <tspan x="45.029" y="-288.314">Inicio</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="46.0303,-68.4376 125.366,-14.9465 46.0303,38.5446 -33.3056,-14.9465 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="46.0303,-68.4376 125.366,-14.9465 46.0303,38.5446 -33.3056,-14.9465 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="46.0303" y="-19.0465">
+      <tspan x="46.0303" y="-19.0465">Equipo </tspan>
+      <tspan x="46.0303" y="-3.04648">enciende?</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="445.24,110.87 537.86,178.844 445.24,246.818 352.62,178.844 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="445.24,110.87 537.86,178.844 445.24,246.818 352.62,178.844 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="445.24" y="174.744">
+      <tspan x="445.24" y="174.744">Equipo da</tspan>
+      <tspan x="445.24" y="190.744">pantallazo azul?</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="445.859,388.256 544.901,452.135 445.859,516.014 346.816,452.135 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="445.859,388.256 544.901,452.135 445.859,516.014 346.816,452.135 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="445.859" y="448.035">
+      <tspan x="445.859" y="448.035">Alertas de </tspan>
+      <tspan x="445.859" y="464.035">bateria en BIOS?</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="447.857,889.712 546.47,939.019 447.857,988.325 349.244,939.019 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="447.857,889.712 546.47,939.019 447.857,988.325 349.244,939.019 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="447.857" y="934.919">
+      <tspan x="447.857" y="934.919">Pantalla</tspan>
+      <tspan x="447.857" y="950.919">recortada?</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="445.859,657.79 535.122,702.422 445.859,747.053 356.596,702.422 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="445.859,657.79 535.122,702.422 445.859,747.053 356.596,702.422 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="445.859" y="698.322">
+      <tspan x="445.859" y="698.322">OS no </tspan>
+      <tspan x="445.859" y="714.322">arranca?</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="-68.752,-166.438 175.372,-166.438 160.813,-126.438 -83.3108,-126.438 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-68.752,-166.438 175.372,-166.438 160.813,-126.438 -83.3108,-126.438 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="46.0304" y="-142.538">
+      <tspan x="46.0304" y="-142.538">¿El equipo de computo enciende?</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="46.0304" y1="-125.435" x2="46.0303" y2="-80.4376"/>
+    <polygon style="fill: #000000" points="41.0303,-80.4376 46.0303,-70.4376 51.0303,-80.4376 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="41.0303,-80.4376 46.0303,-70.4376 51.0303,-80.4376 "/>
+  </g>
+  <text font-size="13.5467" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="125.366" y="-14.9465">
+    <tspan x="125.366" y="-14.9465">Si</tspan>
+  </text>
+  <text font-size="13.5467" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="46.0304" y="51.1446">
+    <tspan x="46.0304" y="51.1446">No</tspan>
+  </text>
+  <g>
+    <polygon style="fill: #ffffff" points="-250.334,126.766 -48.0135,126.766 -73.4914,196.766 -275.812,196.766 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-250.334,126.766 -48.0135,126.766 -73.4914,196.766 -275.812,196.766 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-161.913" y="149.666">
+      <tspan x="-161.913" y="149.666">Revise que el equipo de</tspan>
+      <tspan x="-161.913" y="165.666"> computo este conectado</tspan>
+      <tspan x="-161.913" y="181.666">a la luz electrica.</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="355.49" y="47.3194" width="179.5" height="43.226"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="355.49" y="47.3194" width="179.5" height="43.226"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="445.24" y="72.8324">
+      <tspan x="445.24" y="72.8324">Acertar equipo enciende</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="125.841,-14.266 449.056,-11.5102 446.775,36.5772 "/>
+    <polygon style="fill: #000000" points="441.78,36.3403 446.301,46.5659 451.769,36.8141 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="441.78,36.3403 446.301,46.5659 451.769,36.8141 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="9.3054" y="65.9924" width="73.45" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="9.3054" y="65.9924" width="73.45" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="46.0304" y="88.8924">
+      <tspan x="46.0304" y="88.8924">N=N+1</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="46.0304" y1="39.5445" x2="46.0304" y2="54.0339"/>
+    <polygon style="fill: #000000" points="41.0304,54.0339 46.0304,64.0339 51.0304,54.0339 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="41.0304,54.0339 46.0304,64.0339 51.0304,54.0339 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="45.029" y1="-281.314" x2="45.793" y2="-178.413"/>
+    <polygon style="fill: #000000" points="40.7931,-178.376 45.8672,-168.413 50.7928,-178.45 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="40.7931,-178.376 45.8672,-168.413 50.7928,-178.45 "/>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="46.0303,144.373 96.0248,177.474 46.0303,210.575 -3.9642,177.474 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="46.0303,144.373 96.0248,177.474 46.0303,210.575 -3.9642,177.474 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="46.0303" y="181.374">
+      <tspan x="46.0303" y="181.374">N=2?</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="46.0304" y1="104.974" x2="46.0304" y2="132.373"/>
+    <polygon style="fill: #000000" points="41.0304,132.373 46.0303,142.373 51.0304,132.373 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="41.0304,132.373 46.0303,142.373 51.0304,132.373 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-0.193359" y1="173.982" x2="-51.8842" y2="170.078"/>
+    <polygon style="fill: #000000" points="-51.5076,165.092 -61.8558,169.324 -52.2608,175.064 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-51.5076,165.092 -61.8558,169.324 -52.2608,175.064 "/>
+  </g>
+  <text font-size="13.5467" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="46.0304" y="223.174">
+    <tspan x="46.0304" y="223.174">Si</tspan>
+  </text>
+  <text font-size="13.5467" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-3.9642" y="190.074">
+    <tspan x="-3.9642" y="190.074">No</tspan>
+  </text>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-161.147,125.844 -158.078,-18.1095 -43.9506,-16.3409 "/>
+    <polygon style="fill: #000000" points="-44.0281,-11.3415 -33.9518,-16.186 -43.8731,-21.3403 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-44.0281,-11.3415 -33.9518,-16.186 -43.8731,-21.3403 "/>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="-45.7294,257.728 149.518,257.728 129.863,311.728 -65.3838,311.728 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-45.7294,257.728 149.518,257.728 129.863,311.728 -65.3838,311.728 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="42.0669" y="280.628">
+      <tspan x="42.0669" y="280.628">La fuente de poder de la </tspan>
+      <tspan x="42.0669" y="296.628">pc se encuetra dañada</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="44.8002" y1="210.762" x2="43.5075" y2="245.744"/>
+    <polygon style="fill: #000000" points="38.5109,245.559 43.1382,255.737 48.5041,245.928 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="38.5109,245.559 43.1382,255.737 48.5041,245.928 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="14.6216" y="362.75" width="50.5" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="14.6216" y="362.75" width="50.5" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="39.8716" y="385.65">
+      <tspan x="39.8716" y="385.65">N=0</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="41.4333" y1="312.732" x2="40.5731" y2="350.749"/>
+    <polygon style="fill: #000000" points="35.5743,350.636 40.3468,360.747 45.5718,350.862 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="35.5743,350.636 40.3468,360.747 45.5718,350.862 "/>
+  </g>
+  <text font-size="13.5467" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="535.122" y="702.422">
+    <tspan x="535.122" y="702.422">Si</tspan>
+  </text>
+  <text font-size="13.5467" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="445.858" y="759.654">
+    <tspan x="445.858" y="759.654">No</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="591.042" y="772.728" width="111.15" height="54"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="591.042" y="772.728" width="111.15" height="54"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="646.617" y="795.628">
+      <tspan x="646.617" y="795.628">Acertar OS no</tspan>
+      <tspan x="646.617" y="811.628"> arranca</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="536.122,702.856 648.486,703.396 647.373,760.731 "/>
+    <polygon style="fill: #000000" points="642.374,760.634 647.179,770.729 652.372,760.828 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="642.374,760.634 647.179,770.729 652.372,760.828 "/>
+  </g>
+  <g>
+    <path style="fill: #ffffff" d="M 28.9761 1537.05 L 55.6427,1537.05 C 59.3246,1537.05 62.3094,1546.01 62.3094,1557.05 C 62.3094,1568.1 59.3246,1577.05 55.6427,1577.05 L 28.9761,1577.05 C 25.2942,1577.05 22.3094,1568.1 22.3094,1557.05 C 22.3094,1546.01 25.2942,1537.05 28.9761,1537.05z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 28.9761 1537.05 L 55.6427,1537.05 C 59.3246,1537.05 62.3094,1546.01 62.3094,1557.05 C 62.3094,1568.1 59.3246,1577.05 55.6427,1577.05 L 28.9761,1577.05 C 25.2942,1577.05 22.3094,1568.1 22.3094,1557.05 C 22.3094,1546.01 25.2942,1537.05 28.9761,1537.05"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="42.3094" y="1561.05">
+      <tspan x="42.3094" y="1561.05">Fin</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="39.913" y1="401.728" x2="42.2431" y2="1525.07"/>
+    <polygon style="fill: #000000" points="37.2431,1525.08 42.2638,1535.07 47.2431,1525.06 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="37.2431,1525.08 42.2638,1535.07 47.2431,1525.06 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="445.24" y1="91.5399" x2="445.24" y2="98.8701"/>
+    <polygon style="fill: #000000" points="440.24,98.8701 445.24,108.87 450.24,98.8701 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="440.24,98.8701 445.24,108.87 450.24,98.8701 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="350.79" y="315.5" width="188.9" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="350.79" y="315.5" width="188.9" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="445.24" y="338.4">
+      <tspan x="445.24" y="338.4">acertar no pantallazo azul</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="445.24" y1="247.818" x2="445.24" y2="303.501"/>
+    <polygon style="fill: #000000" points="440.24,303.501 445.24,313.501 450.24,303.501 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="440.24,303.501 445.24,313.501 450.24,303.501 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="445.345" y1="354.503" x2="445.461" y2="376.516"/>
+    <polygon style="fill: #000000" points="440.461,376.543 445.514,386.516 450.461,376.49 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="440.461,376.543 445.514,386.516 450.461,376.49 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="367.316" y="566.4" width="163.95" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="367.316" y="566.4" width="163.95" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="449.291" y="589.3">
+      <tspan x="449.291" y="589.3">acerta no bateria baja</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="447.502" y1="515.937" x2="448.493" y2="554.411"/>
+    <polygon style="fill: #000000" points="443.494,554.539 448.75,564.407 453.491,554.282 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="443.494,554.539 448.75,564.407 453.491,554.282 "/>
+  </g>
+  <text font-size="13.5467" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="537.86" y="178.844">
+    <tspan x="537.86" y="178.844">Si</tspan>
+  </text>
+  <text font-size="13.5467" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="544.902" y="452.136">
+    <tspan x="544.902" y="452.136">Si</tspan>
+  </text>
+  <text font-size="13.5467" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="445.24" y="259.418">
+    <tspan x="445.24" y="259.418">No</tspan>
+  </text>
+  <text font-size="13.5467" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="445.858" y="528.614">
+    <tspan x="445.858" y="528.614">No</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="448.704" y1="605.406" x2="447.501" y2="646.45"/>
+    <polygon style="fill: #000000" points="442.503,646.304 447.207,656.446 452.498,646.597 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="442.503,646.304 447.207,656.446 452.498,646.597 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="807.49" y="253.61" width="186.965" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="807.49" y="253.61" width="186.965" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="900.972" y="276.51">
+      <tspan x="900.972" y="276.51">acertar si pantallazo azul</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="538.86,178.928 900.782,179.255 900.909,241.622 "/>
+    <polygon style="fill: #000000" points="895.909,241.632 900.929,251.622 905.909,241.611 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="895.909,241.632 900.929,251.622 905.909,241.611 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="900.79" y1="292.605" x2="900.451" y2="329.699"/>
+    <polygon style="fill: #000000" points="895.451,329.653 900.36,339.699 905.451,329.745 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="895.451,329.653 900.36,339.699 905.451,329.745 "/>
+  </g>
+  <text font-size="13.5467" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="1005.49" y="500.62">
+    <tspan x="1005.49" y="500.62">Si</tspan>
+  </text>
+  <text font-size="13.5467" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="900.79" y="594.434">
+    <tspan x="900.79" y="594.434">No</tspan>
+  </text>
+  <g>
+    <polygon style="fill: #ffffff" points="792.848,341.68 1027,341.68 1007.34,395.68 773.194,395.68 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="792.848,341.68 1027,341.68 1007.34,395.68 773.194,395.68 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="900.095" y="364.58">
+      <tspan x="900.095" y="364.58">Realizar una prueba de analizis</tspan>
+      <tspan x="900.095" y="380.58"> de fallos en disco duro</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="900.79,419.404 1005.49,500.619 900.79,581.834 796.086,500.619 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="900.79,419.404 1005.49,500.619 900.79,581.834 796.086,500.619 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="900.79" y="496.519">
+      <tspan x="900.79" y="496.519">Prueba detecto </tspan>
+      <tspan x="900.79" y="512.519">fallos en disco duro?</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="900.242" y1="396.68" x2="900.301" y2="407.769"/>
+    <polygon style="fill: #000000" points="895.301,407.796 900.353,417.769 905.301,407.743 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="895.301,407.796 900.353,417.769 905.301,407.743 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1057.97" y="542.336" width="235" height="54"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1057.97" y="542.336" width="235" height="54"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1175.47" y="573.236">
+      <tspan x="1175.47" y="573.236">Acertar disco duro dañado</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1006.49,500.714 1178.25,500.868 1177.05,530.363 "/>
+    <polygon style="fill: #000000" points="1172.06,530.16 1176.65,540.355 1182.05,530.565 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1172.06,530.16 1176.65,540.355 1182.05,530.565 "/>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="1074.93,659.332 1293.61,659.332 1273.95,713.332 1055.28,713.332 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1074.93,659.332 1293.61,659.332 1273.95,713.332 1055.28,713.332 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1174.44" y="690.232">
+      <tspan x="1174.44" y="690.232">Disco duro dañado</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1175.23" y1="597.335" x2="1174.79" y2="647.333"/>
+    <polygon style="fill: #000000" points="1169.79,647.289 1174.7,657.333 1179.79,647.377 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1169.79,647.289 1174.7,657.333 1179.79,647.377 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="802.23" y="614.5" width="201.95" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="802.23" y="614.5" width="201.95" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="903.205" y="637.4">
+      <tspan x="903.205" y="637.4">Acertar disco duro funcional</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="902.263" y1="581.699" x2="902.642" y2="602.502"/>
+    <polygon style="fill: #000000" points="897.642,602.592 902.823,612.5 907.641,602.411 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="897.642,602.592 902.823,612.5 907.641,602.411 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="903.381" y1="653.487" x2="903.541" y2="671.583"/>
+    <polygon style="fill: #000000" points="898.541,671.628 903.629,681.583 908.54,671.539 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="898.541,671.628 903.629,681.583 908.54,671.539 "/>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="904.55,682.814 1027.73,786.095 904.55,889.376 781.37,786.095 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="904.55,682.814 1027.73,786.095 904.55,889.376 781.37,786.095 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="904.55" y="781.995">
+      <tspan x="904.55" y="781.995">Estan las memorias RAM</tspan>
+      <tspan x="904.55" y="797.995"> correctamente colocadas?</tspan>
+    </text>
+  </g>
+  <text font-size="13.5467" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="1027.73" y="786.096">
+    <tspan x="1027.73" y="786.096">Si</tspan>
+  </text>
+  <text font-size="13.5467" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="904.548" y="901.978">
+    <tspan x="904.548" y="901.978">No</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="1071.33" y="822.944" width="226.35" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1071.33" y="822.944" width="226.35" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1184.5" y="845.844">
+      <tspan x="1184.5" y="845.844">Acertar Memorias RAM dañadas</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1028.46,786.47 1185.5,786.944 1185.06,810.952 "/>
+    <polygon style="fill: #000000" points="1180.06,810.861 1184.88,820.95 1190.06,811.043 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1180.06,810.861 1184.88,820.95 1190.06,811.043 "/>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="1081.29,922.944 1304.27,922.944 1289.71,962.944 1066.73,962.944 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1081.29,922.944 1304.27,922.944 1289.71,962.944 1066.73,962.944 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1185.5" y="946.844">
+      <tspan x="1185.5" y="946.844">Remplaza la(s) memorias RAM</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1184.7" y1="861.948" x2="1185.18" y2="910.985"/>
+    <polygon style="fill: #000000" points="1180.18,911.035 1185.28,920.985 1190.18,910.936 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1180.18,911.035 1185.28,920.985 1190.18,910.936 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="792.95" y="957.944" width="235.1" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="792.95" y="957.944" width="235.1" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="910.5" y="980.844">
+      <tspan x="910.5" y="980.844">Acertar Memorias bien colocadas</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="719.678,1034.94 1112.75,1034.94 1087.27,1104.94 694.2,1104.94 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="719.678,1034.94 1112.75,1034.94 1087.27,1104.94 694.2,1104.94 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="903.474" y="1057.84">
+      <tspan x="903.474" y="1057.84">Coloquelas correctamente,</tspan>
+      <tspan x="903.474" y="1073.84">su equipo deberia volver a funcionar;</tspan>
+      <tspan x="903.474" y="1089.84"> De lo contrario su tarjeta madre se encuentra dañada.</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="907.718" y1="887.722" x2="909.534" y2="945.949"/>
+    <polygon style="fill: #000000" points="904.536,946.105 909.845,955.944 914.531,945.793 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="904.536,946.105 909.845,955.944 914.531,945.793 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="908.99" y1="996.936" x2="907.022" y2="1022.99"/>
+    <polygon style="fill: #000000" points="902.036,1022.61 906.268,1032.96 912.007,1023.36 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="902.036,1022.61 906.268,1032.96 912.007,1023.36 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="564.43" y="502.91" width="163.95" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="564.43" y="502.91" width="163.95" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="646.405" y="525.81">
+      <tspan x="646.405" y="525.81">acerta bateria baja</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="545.901,452.027 645.886,451.918 646.176,490.909 "/>
+    <polygon style="fill: #000000" points="641.176,490.946 646.25,500.909 651.176,490.872 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="641.176,490.946 646.25,500.909 651.176,490.872 "/>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="564.164,578.516 750.434,578.516 724.957,648.516 538.686,648.516 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="564.164,578.516 750.434,578.516 724.957,648.516 538.686,648.516 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="644.56" y="601.416">
+      <tspan x="644.56" y="601.416">Remplaze Bateria </tspan>
+      <tspan x="644.56" y="617.416">la cual,es ubicada </tspan>
+      <tspan x="644.56" y="633.416">sobre la tarjeta madre.</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="646.002" y1="541.915" x2="645.506" y2="566.533"/>
+    <polygon style="fill: #000000" points="640.507,566.433 645.305,576.531 650.505,566.634 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="640.507,566.433 645.305,576.531 650.505,566.634 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="375.022" y="785.022" width="144.2" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="375.022" y="785.022" width="144.2" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="447.122" y="807.922">
+      <tspan x="447.122" y="807.922">Acertar OS arranca</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="446.423" y1="747.777" x2="446.737" y2="773.018"/>
+    <polygon style="fill: #000000" points="441.737,773.08 446.861,783.017 451.736,772.956 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="441.737,773.08 446.861,783.017 451.736,772.956 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="447.231" y1="824.011" x2="447.524" y2="877.848"/>
+    <polygon style="fill: #000000" points="442.524,877.875 447.579,887.848 452.524,877.821 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="442.524,877.875 447.579,887.848 452.524,877.821 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="703.195,799.728 755.098,799.728 755.098,368.68 771.382,368.68 "/>
+    <polygon style="fill: #000000" points="771.382,373.68 781.382,368.68 771.382,363.68 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="771.382,373.68 781.382,368.68 771.382,363.68 "/>
+  </g>
+  <text font-size="13.5467" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="546.47" y="939.018">
+    <tspan x="546.47" y="939.018">Si</tspan>
+  </text>
+  <text font-size="13.5467" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="447.856" y="1000.92">
+    <tspan x="447.856" y="1000.92">No</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="551.34" y="980.468" width="190.7" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="551.34" y="980.468" width="190.7" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="646.69" y="1003.37">
+      <tspan x="646.69" y="1003.37">Acertar pantalla recortada</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="547.47,939.041 648.486,939.064 647.612,968.468 "/>
+    <polygon style="fill: #000000" points="642.614,968.32 647.315,978.464 652.61,968.617 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="642.614,968.32 647.315,978.464 652.61,968.617 "/>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="646.554,1124.11 806.979,1184.16 646.554,1244.22 486.128,1184.16 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="646.554,1124.11 806.979,1184.16 646.554,1244.22 486.128,1184.16 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="646.554" y="1188.06">
+      <tspan x="646.554" y="1188.06">La pantallla tiene baja resolución?</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="646.675" y1="1019.47" x2="646.607" y2="1112.16"/>
+    <polygon style="fill: #000000" points="641.607,1112.15 646.599,1122.16 651.607,1112.16 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="641.607,1112.15 646.599,1122.16 651.607,1112.16 "/>
+  </g>
+  <text font-size="13.5467" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="806.98" y="1184.16">
+    <tspan x="806.98" y="1184.16">Si</tspan>
+  </text>
+  <text font-size="13.5467" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="646.554" y="1256.82">
+    <tspan x="646.554" y="1256.82">No</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="834.418" y="1229.42" width="211.148" height="47.1429"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="834.418" y="1229.42" width="211.148" height="47.1429"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="939.992" y="1256.89">
+      <tspan x="939.992" y="1256.89">Acertar baja resolución</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="807.979,1184.03 937.664,1183.93 938.793,1217.43 "/>
+    <polygon style="fill: #000000" points="933.796,1217.6 939.13,1227.42 943.79,1217.26 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="933.796,1217.6 939.13,1227.42 943.79,1217.26 "/>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="738.99,1312.15 1153.79,1312.15 1134.13,1366.15 719.336,1366.15 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="738.99,1312.15 1153.79,1312.15 1134.13,1366.15 719.336,1366.15 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="936.562" y="1335.05">
+      <tspan x="936.562" y="1335.05">Actualiza los controladores de tu chipset o tarjeta de video.</tspan>
+      <tspan x="936.562" y="1351.05"></tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="939.013" y1="1277.57" x2="938.114" y2="1300.16"/>
+    <polygon style="fill: #000000" points="933.118,1299.96 937.716,1310.15 943.11,1300.36 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="933.118,1299.96 937.716,1310.15 943.11,1300.36 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="645.061,1244.67 643.734,1298.45 54.8199,1295.39 "/>
+    <polygon style="fill: #000000" points="54.8458,1290.39 44.82,1295.34 54.7939,1300.39 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="54.8458,1290.39 44.82,1295.34 54.7939,1300.39 "/>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="87.9175,1066.76 507.165,1066.76 481.687,1136.76 62.4396,1136.76 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="87.9175,1066.76 507.165,1066.76 481.687,1136.76 62.4396,1136.76 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="284.802" y="1097.66">
+      <tspan x="284.802" y="1097.66">Recomendacion: si experimenta una falla verifica que los</tspan>
+      <tspan x="284.802" y="1113.66"> controladores sean correctos y tu equipo no este infectado.</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="285.445,1137.75 287.374,1245.65 54.82,1245.82 "/>
+    <polygon style="fill: #000000" points="54.8163,1240.82 44.82,1245.83 54.8237,1250.82 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="54.8163,1240.82 44.82,1245.83 54.8237,1250.82 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="936.802,1367.11 937.402,1437.03 53.0059,1434.05 "/>
+    <polygon style="fill: #000000" points="53.0228,1429.05 43.006,1434.01 52.9891,1439.05 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="53.0228,1429.05 43.006,1434.01 52.9891,1439.05 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1185.67,963.931 1189.83,1473.17 53.006,1474.62 "/>
+    <polygon style="fill: #000000" points="52.9996,1469.62 43.006,1474.63 53.0124,1479.62 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="52.9996,1469.62 43.006,1474.63 53.0124,1479.62 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="903.561,1105.94 903.686,1157.26 1174.07,1157.26 "/>
+    <polygon style="fill: #000000" points="1174.07,1162.26 1184.07,1157.26 1174.07,1152.26 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1174.07,1162.26 1184.07,1157.26 1174.07,1152.26 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1174.48,714.315 1174.54,752.28 1352.1,750.774 1350.6,1066.77 1196.07,1066.77 "/>
+    <polygon style="fill: #000000" points="1196.07,1061.77 1186.07,1066.77 1196.07,1071.77 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1196.07,1061.77 1186.07,1066.77 1196.07,1071.77 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="444.779,987.781 442.456,1024.58 293.972,1027.88 290.621,1054.88 "/>
+    <polygon style="fill: #000000" points="285.659,1054.26 289.389,1064.8 295.583,1055.49 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="285.659,1054.26 289.389,1064.8 295.583,1055.49 "/>
+  </g>
+</svg>
