@@ -30,9 +30,10 @@
        then TRUE 
        else FALSE))
 
-;;;**********************
-;;;* ENGINE STATE RULES *
-;;;**********************
+;;;******************
+;;;* PC STATE RULES *
+;;;******************
+
 (defrule power-on
 (declare (salience 100))
 (initial-fact)
@@ -52,6 +53,7 @@
 	then
 	(assert (computer-blue-screen yes))
 	(assert (repair "Execute a hard drive failures test"))
+        (assert (ask-done no))
 	else
 	(assert (computer-blue-screen no))
 	)
@@ -115,7 +117,7 @@
 )
 
 (defrule HDD-issue-appear
-(declare (salience 80))
+(declare (salience 70))
 (computer-turn-on yes)
 (computer-blue-screen yes)
 
@@ -176,7 +178,7 @@
   (printout t crlf crlf))
 
 (defrule print-repair ""
-  (declare (salience 10))
+  (declare (salience 90))
   (repair ?item)
   =>
   (assert (ask-done yes))
@@ -190,12 +192,9 @@
   (repair ?item)
   (ask-done yes)
   =>
-(if (yes-or-no-p "This solved the problem?")
-	then
-        (printout t  "Goodbye" crlf crlf)
-	else
-        (reset)
-        (run)
-)
-)
-
+  (if (yes-or-no-p "This solved the problem?")
+    then
+     (printout t  "Goodbye" crlf crlf)
+    else
+    (reset)
+    (run)))
