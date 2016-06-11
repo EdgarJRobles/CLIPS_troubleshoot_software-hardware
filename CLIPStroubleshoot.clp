@@ -53,8 +53,7 @@
 	then
 	(assert (computer-blue-screen yes))
 	(assert (repair "Execute a hard drive failures test"))
-        (assert (ask-done no))
-	else
+        else
 	(assert (computer-blue-screen no))
 	)
 	
@@ -66,6 +65,7 @@
 =>
 	(if (yes-or-no-p "Have you seen on launch a warning at beginning and include a work like (batterie or RTC)(yes/no)?")
 	then
+        (assert (repair "Change the RTC battery that is in the motherboard."))
 	(assert (computer-BIOS-warning yes))
 	else
 	(assert (computer-BIOS-warning no))
@@ -76,6 +76,7 @@
 (declare (salience 80))
 (computer-turn-on yes)
 (computer-blue-screen no)
+(computer-BIOS-warning no)
 =>
 	(if (yes-or-no-p "Have you seen on initial launch a warning like this 'No format to boot' (yes/no)?")
 	then
@@ -136,7 +137,7 @@
 (computer-turn-on yes)
 (computer-BIOS-NOBOOT no)
 (computer-blue-screen no)
-
+(computer-BIOS-warning no)
 =>
 	(if (yes-or-no-p "Have you seen a half screen(yes/no)?")
 	then
