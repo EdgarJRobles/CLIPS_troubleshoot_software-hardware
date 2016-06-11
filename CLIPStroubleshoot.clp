@@ -189,7 +189,6 @@
 
 (defrule ask-if-end ""
   (declare (salience 0))
-  (repair ?item)
   (ask-done yes)
   =>
   (if (yes-or-no-p "This solved the problem?")
