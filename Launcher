@@ -1,0 +1,4 @@
+(clear)
+(load "/media/Descargas-Uni/CETI/Ingenieria/Sistemas\ expertos/Database\ system/debug.clp")
+(reset)
+(run)
