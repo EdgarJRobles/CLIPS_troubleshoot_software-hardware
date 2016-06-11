@@ -172,14 +172,30 @@
   =>
   (system "reset")
   (printout t crlf crlf)
-  (printout t  "Hardware troubleshoot Expert System")
+  (printout t  "Hardware troubleshoot Expert System for PC")
   (printout t crlf crlf))
 
 (defrule print-repair ""
   (declare (salience 10))
   (repair ?item)
   =>
+  (assert (ask-done yes))
   (printout t crlf crlf)
   (printout t "Suggested Repair:")
   (printout t crlf crlf)
-  (format t " %s%n%n%n" ?item crlf))
+  (format t " %s%n%n%n" ?item))
+
+(defrule ask-if-end ""
+  (declare (salience 0))
+  (repair ?item)
+  (ask-done yes)
+  =>
+(if (yes-or-no-p "This solved the problem?")
+	then
+        (printout t  "Goodbye" crlf crlf)
+	else
+        (reset)
+        (run)
+)
+)
+
