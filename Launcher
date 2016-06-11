@@ -1,4 +1,4 @@
 (clear)
-(load "/media/Descargas-Uni/CETI/Ingenieria/Sistemas\ expertos/Database\ system/debug.clp")
+(load "/home/edga/CLIPS_troubleshoot_software-hardware.clp")
 (reset)
 (run)
