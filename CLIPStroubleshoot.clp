@@ -33,7 +33,7 @@
 ;;;**********************
 ;;;* ENGINE STATE RULES *
 ;;;**********************
-(defrule computer-power-on
+(defrule power-on
 (declare (salience 100))
 (initial-fact)
 =>
@@ -44,13 +44,14 @@
 	(assert (computer-turn-on no))
 	)
 )
-(defrule RAM-issue
+(defrule Blue-issue
 (declare (salience 80))
 (computer-turn-on yes)
 =>
 	(if (yes-or-no-p "Have you seen a blue screen(yes/no)?")
 	then
 	(assert (computer-blue-screen yes))
+	(assert (repair "Execute a hard drive failures test"))
 	else
 	(assert (computer-blue-screen no))
 	)
@@ -74,7 +75,7 @@
 (computer-turn-on yes)
 (computer-blue-screen no)
 =>
-	(if (yes-or-no-p "Have you seen on initial launch a warning like this (No format to boot)(yes/no)?")
+	(if (yes-or-no-p "Have you seen on initial launch a warning like this 'No format to boot' (yes/no)?")
 	then
 	(assert (computer-BIOS-NOBOOT yes))
 	(assert (repair "recover MBR (master boot register)"))
@@ -92,23 +93,73 @@
 	then
 	(assert (repair "Buy a new power cord according to your PC "))
 	else
-	(refresh computer-power-on)
+	(refresh power-on)
 	(assert (bad-connection 1))
 	)
 )
 
-(defrule Video-issue
+(defrule Low-resolution-issue-yes
 (declare (salience 80))
 (computer-turn-on yes)
 (computer-blue-screen no)
+(computer-half-screen yes)	
 
 =>
 	(if (yes-or-no-p "There is not video or in low resolution(yes/no)?")
 	then
-	(assert (computer-video-fail yes))
-	(assert (repair "Please check if video card driver are correct installed"))
+	(assert (computer-half-screen yes))
+	(assert (repair "Please check if video card driver are correct installed or the computer has last drivers updates"))
 	else
-	(assert (computer-video-fail no))
+	(assert (computer-half-screen no))
+	)
+)
+
+(defrule HDD-issue-appear
+(declare (salience 80))
+(computer-turn-on yes)
+(computer-blue-screen yes)
+
+=>
+	(if (yes-or-no-p "HDD test found any error in the PC(yes/no)?")
+	then
+	(assert (computer-HDD-damage yes))
+	(assert (repair "Hard drive is damage,replace or format it"))
+	else
+	(assert (computer-HDD-damage no))
+	)
+)
+
+(defrule half-screen-issue
+(declare (salience 80))
+(computer-turn-on yes)
+(computer-BIOS-NOBOOT no)
+(computer-blue-screen no)
+
+=>
+	(if (yes-or-no-p "Have you seen a half screen(yes/no)?")
+	then
+	(assert (computer-half-screen yes))
+	else
+	(assert (computer-half-screen no))
+	)
+)
+
+(defrule RAM-issue
+(declare (salience 80))
+(computer-turn-on yes)
+(computer-BIOS-NOBOOT no)
+(computer-blue-screen no)
+(computer-half-screen no)
+(computer-HDD-damage no)
+
+=>
+	(if (yes-or-no-p "Are RAM memories correct placed?")
+	then
+	(assert (RAM-memories-damage yes))
+	(assert (repair "Remplace RAM memories"))
+	else
+	(assert (RAM-memories-damage no))
+	(assert (repair "Make sure RAM memories are corrected place on mother board slots"))
 	)
 )
 
