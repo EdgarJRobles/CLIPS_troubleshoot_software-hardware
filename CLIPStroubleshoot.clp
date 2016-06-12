@@ -91,14 +91,20 @@
 (declare (salience 80))
 (computer-turn-on no)
 =>
-	(printout t "Please check if power cable have a good connection" crlf)
-	(if (eq bad-connection 1)
-	then
-	(assert (repair "Buy a new power cord according to your PC "))
-	else
-	(refresh power-on)
-	(assert (bad-connection 1))
-	)
+(assert (repair "Please check if power cable have a good connection or power supply has been properly powered."))
+)
+
+(defrule NoTurn-on-PC2
+(declare (salience 70))
+(computer-turn-on no)
+=>
+(if (yes-or-no-p "Power cable is good and power supply has been powered(yes/no)?")
+then 
+(assert (repair "Motherboard or internal circuitry may have a several problem. Consult your PC technician."))
+(assert (runaway yes))
+else
+(assert (repair "Buy a new power cord or replace power supply unit according to your PC if the cables and power are good."))
+)
 )
 
 (defrule Low-resolution-issue-yes
@@ -192,9 +198,10 @@
   (declare (salience 0))
   (ask-done yes)
   =>
-  (if (yes-or-no-p "This solved the problem?")
-    then
-     (printout t  "Goodbye" crlf crlf)
-    else
-    (reset)
-    (run)))
+     (if (or (yes-or-no-p "This solved the problem?") runaway yes)
+       then
+        (printout t  "Goodbye..." crlf crlf)
+       else
+       (reset)
+       (run))
+)
