@@ -1,4 +1,0 @@
-(clear)
-(load "/home/edga/CLIPS_troubleshoot_software-hardware.clp")
-(reset)
-(run)
