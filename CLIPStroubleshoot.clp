@@ -52,7 +52,7 @@
 	(if (yes-or-no-p "Have you seen a blue screen(yes/no)?")
 	then
 	(assert (computer-blue-screen yes))
-	(assert (repair "Execute a hard drive failures test"))
+	(assert (repair "Execute a hard drive failures test."))
         else
 	(assert (computer-blue-screen no))
 	)
@@ -81,7 +81,7 @@
 	(if (yes-or-no-p "Have you seen on initial launch a warning like this 'No format to boot' (yes/no)?")
 	then
 	(assert (computer-BIOS-NOBOOT yes))
-	(assert (repair "recover MBR (master boot register)"))
+	(assert (repair "Recover the MBR.(Master Boot Register)"))
 	else
 	(assert (computer-BIOS-NOBOOT no))
 	)
@@ -101,7 +101,6 @@
 (if (yes-or-no-p "Power cable is good and power supply has been powered(yes/no)?")
 then 
 (assert (repair "Motherboard or internal circuitry may have a several problem. Consult your PC technician."))
-(assert (runaway yes))
 else
 (assert (repair "Buy a new power cord or replace power supply unit according to your PC if the cables and power are good."))
 )
@@ -117,7 +116,7 @@ else
 	(if (yes-or-no-p "There is not video or in low resolution(yes/no)?")
 	then
 	(assert (computer-half-screen yes))
-	(assert (repair "Please check if video card driver are correct installed or the computer has last drivers updates"))
+	(assert (repair "Please check if video card driver are correct installed or the computer has last drivers updates."))
 	else
 	(assert (computer-half-screen no))
 	)
@@ -132,7 +131,7 @@ else
 	(if (yes-or-no-p "HDD test found any error in the PC(yes/no)?")
 	then
 	(assert (computer-HDD-damage yes))
-	(assert (repair "Hard drive is damage,replace or format it"))
+	(assert (repair "Hard drive is damage,replace or format it."))
 	else
 	(assert (computer-HDD-damage no))
 	)
@@ -156,20 +155,26 @@ else
 (defrule RAM-issue
 (declare (salience 80))
 (computer-turn-on yes)
-(computer-BIOS-NOBOOT no)
-(computer-blue-screen no)
-(computer-half-screen no)
+(computer-blue-screen yes)
 (computer-HDD-damage no)
-
 =>
 	(if (yes-or-no-p "Are RAM memories correct placed?")
 	then
 	(assert (RAM-memories-damage yes))
-	(assert (repair "Remplace RAM memories"))
+	(assert (repair "Remplace RAM memories."))
 	else
 	(assert (RAM-memories-damage no))
-	(assert (repair "Make sure RAM memories are corrected place on mother board slots"))
+	(assert (repair "Make sure RAM memories are correct placed on mother board slots."))
 	)
+)
+
+(defrule No-problem-or-no-data
+(declare (salience 80))
+(computer-turn-on yes)
+(computer-blue-screen no)
+(computer-half-screen no)
+=>
+(assert (repair "There is no problem with your computer or is not in expert system the database."))
 )
 
 ;;;****************************
@@ -198,9 +203,10 @@ else
   (declare (salience 0))
   (ask-done yes)
   =>
-     (if (or (yes-or-no-p "This solved the problem?") runaway yes)
+     (if (yes-or-no-p "This solved the problem(yes/no)?")
        then
         (printout t  "Goodbye..." crlf crlf)
+        (system "exit")
        else
        (reset)
        (run))
