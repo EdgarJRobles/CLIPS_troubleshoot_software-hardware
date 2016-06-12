@@ -206,8 +206,9 @@ else
      (if (yes-or-no-p "This solved the problem(yes/no)?")
        then
         (printout t  "Goodbye..." crlf crlf)
-        (system "exit")
+        (exit)
        else
        (reset)
-       (run))
+       (run)
+     )
 )
