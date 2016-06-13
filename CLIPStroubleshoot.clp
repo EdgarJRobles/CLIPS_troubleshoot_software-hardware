@@ -56,7 +56,6 @@
         else
 	(assert (computer-blue-screen no))
 	)
-	
 )
 (defrule Batterie-RTC-issue
 (declare (salience 80))
@@ -70,6 +69,7 @@
 	else
 	(assert (computer-BIOS-warning no))
 	)
+
 )
 
 (defrule Nostart-OS-issue
@@ -92,18 +92,19 @@
 (computer-turn-on no)
 =>
 (assert (repair "Please check if power cable have a good connection or power supply has been properly powered."))
+
 )
 
 (defrule NoTurn-on-PC2
 (declare (salience 70))
 (computer-turn-on no)
 =>
-(if (yes-or-no-p "Power cable is good and power supply has been powered(yes/no)?")
-then 
-(assert (repair "Motherboard or internal circuitry may have a several problem. Consult your PC technician."))
-else
-(assert (repair "Buy a new power cord or replace power supply unit according to your PC if the cables and power are good."))
-)
+	(if (yes-or-no-p "Power cable is good and power supply has been powered(yes/no)?")
+	then 
+	(assert (repair "Motherboard or internal circuitry may have a several problem. Consult your PC technician."))
+	else
+	(assert (repair "Buy a new power cord or replace power supply unit according to your PC if the cables and power are good."))
+	)
 )
 
 (defrule Low-resolution-issue-yes
@@ -169,12 +170,18 @@ else
 )
 
 (defrule No-problem-or-no-data
-(declare (salience 80))
+(declare (salience 50))
 (computer-turn-on yes)
 (computer-blue-screen no)
+(computer-BIOS-warning no)
+(computer-BIOS-NOBOOT no)
 (computer-half-screen no)
 =>
-(assert (repair "There is no problem with your computer or is not in expert system the database."))
+(printout t crlf "There is no problem with your computer or is not in expert system the database."crlf )
+(printout t "Press any key to exit"crlf)
+(bind ?anything (readline))
+(exit)
+
 )
 
 ;;;****************************
@@ -193,10 +200,10 @@ else
   (declare (salience 90))
   (repair ?item)
   =>
+  (printout t crlf crlf)
+  (printout t "Suggest :")
+  (printout t crlf crlf)
   (assert (ask-done yes))
-  (printout t crlf crlf)
-  (printout t "Suggested Repair:")
-  (printout t crlf crlf)
   (format t " %s%n%n%n" ?item))
 
 (defrule ask-if-end ""
