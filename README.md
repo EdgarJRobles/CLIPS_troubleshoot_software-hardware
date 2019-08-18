@@ -1,8 +1,6 @@
 # CLIPS_troubleshoot_software-hardware
-
-![Texto alternativo a la imagen](https://github.com/EdgarJRobles/CLIPS_troubleshoot_software-hardware/master/Hardware_troubleshoot.svg) : Imagen y texto alternativo
+<img src="./Hardware_troubleshoot.svg">
 A continuacion se define los alcances que la aplicacion de clips va a tomar en cuenta:
-
 
 -El sistema experto preguntara por los posibles sintomas de caracter fisico.
 * RAM "Pantallazo azul, memoria limitada, Traza por sobrecarga de memoria"
